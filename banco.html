@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css">
+    body
+    {
+      background-color: #AAAAFF;
+      color: black;
+      font-family: Helvetica;
+    }
+    </style>
+    <title>Banco Lisboa</title>
+  </head>
+  <body>
+    <h1> Banco Lisboa</h1>
+    <p>
+      <img src="banco.png"/>
+    </p>
+    <hr/>
+    <p>
+      <strong>Indique el monto a transferir:</strong>
+      <input type="text" id="monto" />
+      <input type="button" value ="Tranferir" id="transferir" />
+    </p>
+    <p>
+      <strong>Seleccione el banco a transferir:</strong>
+      <select name="menu1" id="menu" >
+        <option value="lisboa">Banco Lisboa</option>
+        <option value="romero">Banco Romero</option>
+        <option value="esther">Banco Esther</option>
+      </select>
+      <br/>
+    </p>
+    <p>
+      <strong>Seleccione el tipo de cuenta a transferir:</strong>
+      <select name="menu2">
+        <option>Corriente</option>
+        <option>Ahorro</option>
+      </select>
+    </p>
+<hr/>
+    <p id="resultado"></p>
+
+    <script src="banco.js"></script>
+  </body>
+</html>
